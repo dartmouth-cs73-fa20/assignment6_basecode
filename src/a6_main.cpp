@@ -130,7 +130,7 @@ void classMorph(int studentNumber) {
 
 	int studentNumberTwo = studentNumber + 1;
 
-	if (studentNumber == 25)  studentNumberTwo = 0;
+	if (studentNumber == 34)  studentNumberTwo = 0;
 
 	sprintf(buffer1, DATA_DIR "/input/a6/class-morph/class-morph-%02d.jpg", studentNumber);
 	sprintf(buffer2, DATA_DIR "/input/a6/class-morph/class-morph-%02d.jpg", studentNumberTwo);
